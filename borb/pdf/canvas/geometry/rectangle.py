@@ -27,7 +27,6 @@ class Rectangle:
         height: Decimal,
     ):
         # TODO: sort args
-        assert width >= 0, "A Rectangle must have a non-negative width."
         assert height >= 0, "A Rectangle must have a non-negative height."
         self.x = lower_left_x
         self.y = lower_left_y
